@@ -1,7 +1,9 @@
 class Appointment
   attr_accessor :doctor
   
-  
+  def patient=(patient)
+    @patient = patient
+  end
   
   @@all = []
   
