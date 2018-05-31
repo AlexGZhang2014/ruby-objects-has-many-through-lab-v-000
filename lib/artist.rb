@@ -7,5 +7,8 @@ class Artist
     @@all
   end
   
+  def initialize(name)
+    @name = name
+  end
   
 end
