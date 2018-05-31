@@ -1,5 +1,3 @@
-require 'pry'
-
 class Appointment
   binding.pry
   attr_accessor :doctor, :patient
